@@ -40,7 +40,7 @@ int countPairs3(int* arr, int len, int value) {
       int x = start + (end - start) / 2;
       if (arr[x] >= f) {
         end = x - 1;
-        if (arr[x] == f) 
+        if (arr[x] == f)
           first = x;
       } else {
         start = x + 1;
